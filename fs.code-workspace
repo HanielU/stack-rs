@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../../mini-grep"
+	},
+	{
+		"path": "../../cli-tut"
+	}
+],
+  "settings": {}
+}

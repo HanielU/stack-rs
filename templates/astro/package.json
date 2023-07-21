@@ -1,0 +1,35 @@
+{
+  "name": "@example/basics",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "astro": "^1.6.10",
+    "clsx": "^1.2.1"
+  },
+  "packageManager": "yarn@3.2.4",
+  "devDependencies": {
+    "@astrojs/svelte": "^1.0.2",
+    "@iconify/json": "^2.1.140",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-astro": "^0.21.0",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "prettier": "^2.7.1",
+    "prettier-plugin-astro": "^0.7.0",
+    "prettier-plugin-svelte": "^2.8.1",
+    "svelte": "^3.53.1",
+    "unocss": "^0.46.5"
+  }
+}
